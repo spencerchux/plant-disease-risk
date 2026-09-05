@@ -44,11 +44,14 @@ The project applies classification techniques to predict plant disease risk from
 
 Model performance is evaluated using appropriate classification metrics to determine how effectively disease-risk cases can be identified.
 
+
 ## 📊 Key Findings
 
-The analysis demonstrates how environmental and agricultural variables can be used to estimate plant disease risk.
-
-The machine learning workflow provides a reproducible approach for identifying patterns associated with disease occurrence and evaluating predictive performance.
+- LightGBM was the best-performing machine learning model.
+- The final LightGBM model achieved a test accuracy of **86.64%**.
+- The model achieved a **ROC-AUC score of 0.795**.
+- Soil pH and temperature were among the most influential variables for predicting plant disease risk.
+- Rainfall and humidity also contributed to disease-risk prediction.
 
 ## 💡 Agricultural Recommendations
 
